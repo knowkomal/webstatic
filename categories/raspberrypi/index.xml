@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on Komal Singh</title>
-    <link>https://kom.al/blog/</link>
-    <description>Recent content in Blogs on Komal Singh</description>
+    <title>raspberrypi on Komal Singh</title>
+    <link>https://kom.al/categories/raspberrypi/</link>
+    <description>Recent content in raspberrypi on Komal Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2023 Komal Singh</copyright>
-    <lastBuildDate>Mon, 13 Nov 2023 11:02:08 +0530</lastBuildDate><atom:link href="https://kom.al/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Nov 2023 11:02:08 +0530</lastBuildDate><atom:link href="https://kom.al/categories/raspberrypi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Pi Setup: What&#39;s Installed?</title>
       <link>https://kom.al/blog/20231113-raspberrypi/</link>
@@ -15,15 +15,6 @@
       
       <guid>https://kom.al/blog/20231113-raspberrypi/</guid>
       <description>Ever since I got my Raspberry Pi 4 Model B with 4GB of RAM in January 2020, it&amp;rsquo;s been a reliable helper at home.</description>
-    </item>
-    
-    <item>
-      <title>Khand Mishri - Babbulicious</title>
-      <link>https://kom.al/blog/20230916-khand-mishri/</link>
-      <pubDate>Sat, 16 Sep 2023 20:13:21 +0530</pubDate>
-      
-      <guid>https://kom.al/blog/20230916-khand-mishri/</guid>
-      <description>If you follow Babbulicious, you will love his new song &amp;lsquo;Khand Mishri&amp;rsquo;.</description>
     </item>
     
   </channel>
