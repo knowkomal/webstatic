@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2023 Komal Singh</copyright>
-    <lastBuildDate>Sat, 16 Sep 2023 20:13:21 +0530</lastBuildDate><atom:link href="https://kom.al/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://kom.al/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Pi Setup: What&#39;s Installed?</title>
+      <link>https://kom.al/blog/20231113-raspberrypi/</link>
+      <pubDate>Sun, 12 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://kom.al/blog/20231113-raspberrypi/</guid>
+      <description>Ever since I got my Raspberry Pi 4 Model B with 4GB of RAM in January 2020, it&amp;rsquo;s been a reliable helper at home.</description>
+    </item>
+    
     <item>
       <title>Wot I Read</title>
       <link>https://kom.al/wir/</link>
@@ -15,24 +24,6 @@
       
       <guid>https://kom.al/wir/</guid>
       <description>If you&amp;rsquo;d like to explore the articles I find intriguing, I&amp;rsquo;ve curated them on a dedicated page using Raindrop.</description>
-    </item>
-    
-    <item>
-      <title>Khand Mishri - Babbulicious</title>
-      <link>https://kom.al/blog/20230916-khand-mishri/</link>
-      <pubDate>Sat, 16 Sep 2023 20:13:21 +0530</pubDate>
-      
-      <guid>https://kom.al/blog/20230916-khand-mishri/</guid>
-      <description>If you follow Babbulicious, you will love his new song &amp;lsquo;Khand Mishri&amp;rsquo;.</description>
-    </item>
-    
-    <item>
-      <title>My Pi Setup: What&#39;s Installed?</title>
-      <link>https://kom.al/blog/20231113-raspberrypi/</link>
-      <pubDate>Sat, 16 Sep 2023 20:13:21 +0530</pubDate>
-      
-      <guid>https://kom.al/blog/20231113-raspberrypi/</guid>
-      <description>Ever since I got my Raspberry Pi 4 Model B with 4GB of RAM in January 2020, it&amp;rsquo;s been a reliable helper at home.</description>
     </item>
     
     <item>
@@ -60,6 +51,15 @@
       
       <guid>https://kom.al/subscribe/</guid>
       <description>If you find my blog posts interesting, do consider subscribing to it.</description>
+    </item>
+    
+    <item>
+      <title>Khand Mishri - Babbulicious</title>
+      <link>https://kom.al/blog/20230916-khand-mishri/</link>
+      <pubDate>Sat, 16 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://kom.al/blog/20230916-khand-mishri/</guid>
+      <description>If you follow Babbulicious, you will love his new song &amp;lsquo;Khand Mishri&amp;rsquo;.</description>
     </item>
     
   </channel>
