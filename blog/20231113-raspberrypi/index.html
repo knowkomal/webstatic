@@ -108,7 +108,7 @@
     "keywords": ["tech"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "434"
+    "wordCount": "490"
   }
   </script>
 
@@ -454,7 +454,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2023-11-12 00:00:00 &#43;0000 UTC">2023-11-12</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2023-11-13 00:00:00 &#43;0000 UTC">Updated: 2023-11-13</time><span class="px-2 text-primary-500">&middot;</span><span>434 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span>
+      <time datetime="2023-11-12 00:00:00 &#43;0000 UTC">2023-11-12</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2023-11-13 00:00:00 &#43;0000 UTC">Updated: 2023-11-13</time><span class="px-2 text-primary-500">&middot;</span><span>490 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span>
     
 
     
@@ -508,7 +508,16 @@
     <li><a href="#blocking-annoying-ads-and-trackers-with-adguard-home">Blocking Annoying Ads and Trackers with AdGuard Home</a></li>
     <li><a href="#making-non-homekit-devices-play-nice-with-homebridge">Making Non-HomeKit Devices Play Nice with HomeBridge</a></li>
     <li><a href="#creating-your-personal-entertainment-hub-with-plex">Creating Your Personal Entertainment Hub with Plex</a></li>
-    <li><a href="#turning-led-strips-on-and-off-with-the-raspberry-pi">Turning LED Strips On and Off with the Raspberry Pi</a></li>
+    <li><a href="#turning-led-strips-on-and-off-with-the-raspberry-pi">Turning LED Strips On and Off with the Raspberry Pi</a>
+      <ul>
+        <li>
+          <ul>
+            <li><a href="#ssh-command-to-turn-it-on">SSH command to turn it on:</a></li>
+            <li><a href="#ssh-command-to-turn-it-off">SSH command to turn it off:</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
     <li><a href="#using-raspberry-pi-as-a-bridge-between-mobile-and-router">Using Raspberry Pi as a Bridge Between Mobile and Router</a></li>
     <li><a href="#conclusion">Conclusion</a></li>
   </ul>
@@ -520,7 +529,38 @@
         </div>
       
       <div class="min-w-0 min-h-0 max-w-prose grow">
-        <p>Ever since I got my Raspberry Pi 4 Model B with 4GB of RAM in January 2020, it&rsquo;s been a reliable helper at home. It can do more than you might think, so let me share how I&rsquo;ve made it useful for privacy, automation, and entertainment without getting too techy.</p>
+        <p>
+
+
+
+
+  
+  
+    
+  
+  
+    <figure>
+      <img
+        class="mx-auto my-0 rounded-md"
+        
+          width="1024"
+          height="738"
+          
+            srcset="/blog/20231113-raspberrypi/thumb_hu265a2d1c875f4a66f1564f8b08671d0c_110217_330x0_resize_q75_box.jpg 330w,/blog/20231113-raspberrypi/thumb_hu265a2d1c875f4a66f1564f8b08671d0c_110217_660x0_resize_q75_box.jpg 660w,/blog/20231113-raspberrypi/thumb_hu265a2d1c875f4a66f1564f8b08671d0c_110217_1024x0_resize_q75_box.jpg 1024w,/blog/20231113-raspberrypi/thumb_hu265a2d1c875f4a66f1564f8b08671d0c_110217_1320x0_resize_q75_box.jpg 2x"
+            src="/blog/20231113-raspberrypi/thumb_hu265a2d1c875f4a66f1564f8b08671d0c_110217_660x0_resize_q75_box.jpg"
+          
+        
+        alt=""
+        
+          loading="lazy"
+        
+      />
+      
+    </figure>
+  
+
+</p>
+<p>Ever since I got my Raspberry Pi 4 Model B with 4GB of RAM in January 2020, it&rsquo;s been a reliable helper at home. It can do more than you might think, so let me share how I&rsquo;ve made it useful for privacy, automation, and entertainment without getting too techy.</p>
 <h2 id="blocking-annoying-ads-and-trackers-with-adguard-home" class="relative group">Blocking Annoying Ads and Trackers with AdGuard Home <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#blocking-annoying-ads-and-trackers-with-adguard-home" aria-label="Anchor">#</a></span></h2>
 <p>I installed AdGuard Home on my Raspberry Pi to stop those annoying ads and trackers from bothering my devices on the home Wi-Fi. It&rsquo;s like a bouncer for your internet. If you want to set it up, just follow the steps in this guide: <a
   href="https://pimylifeup.com/raspberry-pi-adguard-home/"
@@ -560,11 +600,11 @@
   href="https://amzn.eu/d/fOHDthp"
   
   target="_blank" rel="noreferrer noopener"
->LED strips</a> didn&rsquo;t come with a remote, so I got creative. Connected them to the Raspberry Pi and set up a way to turn them on and off using Shortcut App on my Apple devices to run script over SSH. It&rsquo;s not as complicated as it sounds. Here are the SSH commands:</p>
-<p>To turn it on
+>LED strips</a> didn&rsquo;t come with a remote, so I got creative. I connected them to the USB port of the Raspberry Pi and easily managed them by remotely switching the power to the USB ports on and off using SSH commands. These commands are sent using the Shortcut App on my Apple devices to run scripts over SSH, hence allowing me to remotely control the LED strips. It&rsquo;s not as complicated as it sounds..</p>
+<h4 id="ssh-command-to-turn-it-on" class="relative group">SSH command to turn it on: <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#ssh-command-to-turn-it-on" aria-label="Anchor">#</a></span></h4>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="nx">echo</span> <span class="nx">password</span> <span class="p">|</span> <span class="nx">sudo</span> <span class="o">-</span><span class="nx">S</span> <span class="nx">uhubctl</span> <span class="o">-</span><span class="nx">l</span> <span class="mi">2</span> <span class="o">-</span><span class="nx">a</span> <span class="mi">1</span></span></span></code></pre></div>
-To turn it off
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="nx">echo</span> <span class="nx">password</span> <span class="p">|</span> <span class="nx">sudo</span> <span class="o">-</span><span class="nx">S</span> <span class="nx">uhubctl</span> <span class="o">-</span><span class="nx">l</span> <span class="mi">2</span> <span class="o">-</span><span class="nx">a</span> <span class="mi">0</span></span></span></code></pre></div></p>
+<h4 id="ssh-command-to-turn-it-off" class="relative group">SSH command to turn it off: <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#ssh-command-to-turn-it-off" aria-label="Anchor">#</a></span></h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="nx">echo</span> <span class="nx">password</span> <span class="p">|</span> <span class="nx">sudo</span> <span class="o">-</span><span class="nx">S</span> <span class="nx">uhubctl</span> <span class="o">-</span><span class="nx">l</span> <span class="mi">2</span> <span class="o">-</span><span class="nx">a</span> <span class="mi">0</span></span></span></code></pre></div>
 <h2 id="using-raspberry-pi-as-a-bridge-between-mobile-and-router" class="relative group">Using Raspberry Pi as a Bridge Between Mobile and Router <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#using-raspberry-pi-as-a-bridge-between-mobile-and-router" aria-label="Anchor">#</a></span></h2>
 <p>In the past, there were no wired internet connections in my area. So, I came up with a solution using the Raspberry Pi. I connected my mobile and the router through the Pi, bringing internet access everywhere at home. If you want to know more about how I did it, check out this solution on <a
   href="https://stackoverflow.com/q/41766414"
@@ -572,7 +612,7 @@ To turn it off
   target="_blank" rel="noreferrer noopener"
 >Stack Overflow</a>.</p>
 <h2 id="conclusion" class="relative group">Conclusion <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#conclusion" aria-label="Anchor">#</a></span></h2>
-<p>So, there you have it. Your Raspberry Pi can do a lot for you at home, and it doesn&rsquo;t take a tech genius to set these things up. Give it a try and make the most of your little helper!</p>
+<p>So, there you have it. Your Raspberry Pi can do a lot for you at home, and it doesn&rsquo;t take a tech genius to set these things up. Give it a try and make the most of your little helper! If you have any specific questions or need more details about these projects, don&rsquo;t hesitate to reach out. I&rsquo;m here to help, so feel free to ask anything!</p>
 
       </div>
     </section>
