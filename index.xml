@@ -36,21 +36,21 @@
     </item>
     
     <item>
-      <title>About</title>
-      <link>https://kom.al/about/</link>
-      <pubDate>Sat, 16 Sep 2023 18:52:32 +0530</pubDate>
-      
-      <guid>https://kom.al/about/</guid>
-      <description>Bio # Meet Komal, an aerospace whiz based in bustling Bangalore, India.</description>
-    </item>
-    
-    <item>
       <title>Subscribe</title>
       <link>https://kom.al/subscribe/</link>
       <pubDate>Sat, 16 Sep 2023 18:52:32 +0530</pubDate>
       
       <guid>https://kom.al/subscribe/</guid>
       <description>If you find my blog posts interesting, do consider subscribing to it.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://kom.al/about/</link>
+      <pubDate>Sat, 16 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://kom.al/about/</guid>
+      <description>Bio #Meet Komal, an aerospace whiz based in bustling Bangalore, India.</description>
     </item>
     
     <item>
